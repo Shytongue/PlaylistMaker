@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/settings_screen">
+
+    <Button
+        android:id="@+id/settings_back"
+        style="@style/settings_back"
+        android:text="@string/settings"
+        app:icon="@drawable/arrow" />
+
+    <Switch
+        android:id="@+id/theme_switcher"
+        style="@style/settings_menu_buttons"
+        android:layout_marginStart="@dimen/padding"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/settings_dark_theme"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+    <Button
+        android:id="@+id/settings_share"
+        style="@style/settings_menu_buttons"
+        android:text="@string/settings_share"
+        app:icon="@drawable/share"/>
+    <Button
+        android:id="@+id/settings_support"
+        style="@style/settings_menu_buttons"
+        android:text="@string/settings_support"
+        app:icon="@drawable/support"/>
+    <Button
+        android:id="@+id/settings_terms"
+        style="@style/settings_menu_buttons"
+        android:text="@string/settings_terms"
+        app:icon="@drawable/terms"/>
+
+</LinearLayout>

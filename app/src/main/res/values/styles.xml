@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="main_screen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/padding</item>
+    </style>
+    <style name="main_buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:fontFamily">@font/ys_medium</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textAppearance">@style/main_buttons</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconTint">@color/dark_blue</item>
+    </style>
+    <style name="settings_screen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="settings_menu_buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:fontFamily">@font/ys_regular</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/regular_text_size</item>
+        <item name="android:textAppearance">@style/settings_menu_buttons</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="iconGravity">end</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconTint">@color/gray</item>
+        <item name="android:outlineAmbientShadowColor">@color/white</item>
+        <item name="android:outlineSpotShadowColor">@color/white</item>
+
+    </style>
+    <style name="settings_back">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:fontFamily">@font/ys_medium</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textAppearance">@style/main_buttons</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">28dp</item>
+        <item name="iconTint">@color/dark_blue</item>
+        <item name="android:outlineAmbientShadowColor">@color/white</item>
+        <item name="android:outlineSpotShadowColor">@color/white</item>
+    </style>
+
+</resources>
