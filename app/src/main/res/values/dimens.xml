@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_text_size">22sp</dimen>
+    <dimen name="regular_text_size">16sp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin_buttons_start">40dp</dimen>
+    <dimen name="margin_buttons_mid">16dp</dimen>
+</resources>
