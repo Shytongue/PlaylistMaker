@@ -16,21 +16,21 @@
     <Button
         android:id="@+id/main_search"
         style="@style/main_buttons"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="@dimen/margin_buttons_start"
         android:text="@string/search"
         app:icon="@drawable/search" />
 
     <Button
         android:id="@+id/main_media"
         style="@style/main_buttons"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/margin_buttons_mid"
         android:text="@string/media"
         app:icon="@drawable/media" />
 
     <Button
         android:id="@+id/main_settings"
         style="@style/main_buttons"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/margin_buttons_mid"
         android:layout_marginBottom="12dp"
         android:text="@string/settings"
         app:icon="@drawable/settings" />
